@@ -14,7 +14,7 @@ tfoot{
     background-color: gray;
     color: white;
 }
-td.span{
+.span{
     text-align: center;
     background-color: aquamarine;
 }
