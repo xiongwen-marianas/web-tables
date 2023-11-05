@@ -1,1 +1,28 @@
-styles
+table.schedule{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table.schedule td, th{
+    padding: 10px;
+    border: 1px solid black;
+}
+table.schedule thead{
+    background-color: rgb(106, 211, 247);
+    color: black;
+}
+tfoot{
+    background-color: gray;
+    color: white;
+}
+td.span{
+    text-align: center;
+    background-color: aquamarine;
+}
+table.schedule tr td:nth-child(1){
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(63, 196, 240);
+}
+table tbody >tr:hover{
+    background-color: aqua;
+}
